@@ -49,7 +49,7 @@
     <control contextprojections="0" contextfullscreen="1" contextvr="1" dblclickfullscreen="0" rubberband="0" invertwheel="0" lockedkeyboardzoom="0" lockedkeyboard="0" simulatemass="1" sensitivity="8" hideabout="0" lockedwheel="0" invertcontrol="1" lockedmouse="0" speedwheel="1" zoomcentercursor="1"/>
   </panorama>
   <masternode>
-    <userdata comment="" title="&lt;div class=&quot;ggmarkdown&quot;>&lt;ul>&#xa;&lt;li>&#xa;&lt;h3>IT-Buildings&lt;/h3>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;div>" author="" copyright="" tags="" description=""/>
+    <userdata comment="" title="&lt;div class=&quot;ggmarkdown&quot;>&lt;p>IT-Buildings&lt;/p>&#xa;&lt;div>" author="" copyright="" tags="" description=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
