@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.8/20986
-// Filename: 
-// Generated 2026-02-08T06:21:16
+// Filename: IT building 2026.ggsk
+// Generated 2026-02-08T06:52:35
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_sounds_splashscreen', 2, false, { ignoreInState: 1  });
@@ -8411,9 +8411,6 @@ alert("The current view has been copied.");
 		}
 		el.ggElementNodeId=function() {
 			return player.getCurrentNode();
-		}
-		me._image_2.onclick=function (e) {
-			player.openUrl("https:\/\/www.instagram.com\/icosphere.togo\/?__pwa=1","");
 		}
 		me._image_2.ggUpdatePosition=function (useTransition) {
 		}
@@ -17629,10 +17626,10 @@ navigator.share({ url: shareUrl });
 					((player.getVariableValue('resp_phone') == false))
 				)
 			) {
-				let pdfInterval_27 = setInterval(() => {
+				let pdfInterval_31 = setInterval(() => {
 					if (skin._pdf_hs_popup_pdf__pdf.contentWindow.PDFViewerApplication && skin._pdf_hs_popup_pdf__pdf.contentWindow.PDFViewerApplication.initialized && skin._pdf_hs_popup_pdf__pdf.contentWindow.PDFViewerApplication.downloadComplete && skin._pdf_hs_popup_pdf__pdf.contentWindow.PDFViewerApplication.pdfViewer._pageViewsReady) {
 						skin._pdf_hs_popup_pdf.ggSetCurrentPage(Number(player._(me.hotspot.target)));
-						clearInterval(pdfInterval_27);
+						clearInterval(pdfInterval_31);
 					}
 				}, 50);
 			}
@@ -17757,10 +17754,10 @@ navigator.share({ url: shareUrl });
 					((player.getVariableValue('resp_phone') == true))
 				)
 			) {
-				let pdfInterval_28 = setInterval(() => {
+				let pdfInterval_32 = setInterval(() => {
 					if (skin._pdf_popup_phone__pdf.contentWindow.PDFViewerApplication && skin._pdf_popup_phone__pdf.contentWindow.PDFViewerApplication.initialized && skin._pdf_popup_phone__pdf.contentWindow.PDFViewerApplication.downloadComplete && skin._pdf_popup_phone__pdf.contentWindow.PDFViewerApplication.pdfViewer._pageViewsReady) {
 						skin._pdf_popup_phone.ggSetCurrentPage(Number(player._(me.hotspot.target)));
-						clearInterval(pdfInterval_28);
+						clearInterval(pdfInterval_32);
 					}
 				}, 50);
 			}
