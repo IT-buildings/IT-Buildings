@@ -18,10 +18,12 @@
     <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
       <label width="180" textalpha="1" wordwrap="1" background="1" backgroundalpha="1" borderradius="1" textcolor="0x000000" bordercolor="0x000000" borderalpha="1" border="1" backgroundcolor="0xffffff" height="20" enabled="1"/>
       <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot title="Chambre Dame 02" skinid="ht_node" pan="-31.07" description="" target="" id="Point01" tilt="2.02" url="{node3}"/>
-      <hotspot title="Chambre Dame 03" skinid="ht_node" pan="-6.54" description="" target="" id="Point02" tilt="10.6" url="{node4}"/>
-      <hotspot title="Chambre R+1  02" skinid="ht_node" pan="-17.39" description="" target="" id="Point03" tilt="11.46" url="{node8}"/>
+      <hotspot title="Chambre Dame 02" skinid="ht_node" pan="-45.91" description="" target="" id="Point01" tilt="7.94" url="{node3}"/>
+      <hotspot title="Chambre Dame 03" skinid="ht_node" pan="-352.87" description="" target="" id="Point02" tilt="10.3" url="{node4}"/>
+      <hotspot title="Chambre R+1  02" skinid="ht_node" pan="-14.73" description="" target="" id="Point03" tilt="12.35" url="{node8}"/>
       <hotspot title="Cuisine" skinid="ht_node" pan="-339.53" description="" target="" id="Point04" tilt="6.31" url="{node9}"/>
+      <hotspot title="Chambre Enfant" skinid="ht_node" pan="-70.16" description="" target="" id="Point05" tilt="14.16" url="{node10}"/>
+      <hotspot title="Chambre Enfant" skinid="ht_node" pan="-10.78" description="" target="" id="Point06" tilt="-26.04" url="{node10}"/>
     </hotspots>
     <media/>
     <transition zoomout="0" zoomoutpause="1" type="mesh" zoomspeed="2" blendcolor="0x000000" delay="none" zoomin="2" zoomafteroutfov="40" softedge="0" zoomafterinfov="140" blendtime="1" enabled="1" zoomfov="40"/>
@@ -48,10 +50,11 @@
     <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
       <label width="180" textalpha="1" wordwrap="1" background="1" backgroundalpha="1" borderradius="1" textcolor="0x000000" bordercolor="0x000000" borderalpha="1" border="1" backgroundcolor="0xffffff" height="20" enabled="1"/>
       <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot title="Chambre Dame" skinid="ht_node" pan="-30.86" description="" target="" id="Point01" tilt="7.45" url="{node5}"/>
+      <hotspot title="Chambre Dame" skinid="ht_node" pan="-41.95" description="" target="" id="Point01" tilt="11.75" url="{node5}"/>
       <hotspot title="Chambre Dame 03" skinid="ht_node" pan="-92.42" description="" target="" id="Point02" tilt="3.27" url="{node4}"/>
-      <hotspot title="Chambre R+1  02" skinid="ht_node" pan="-352.66" description="" target="" id="Point03" tilt="9.34" url="{node8}"/>
-      <hotspot title="Cuisine" skinid="ht_node" pan="-7.21" description="" target="" id="Point04" tilt="10.8" url="{node9}"/>
+      <hotspot title="Chambre R+1  02" skinid="ht_node" pan="-334.78" description="" target="" id="Point03" tilt="16.48" url="{node8}"/>
+      <hotspot title="Cuisine" skinid="ht_node" pan="-10.7" description="" target="" id="Point04" tilt="10.6" url="{node9}"/>
+      <hotspot title="Chambre Enfant" skinid="ht_node" pan="-72.37" description="" target="" id="Point05" tilt="16.78" url="{node10}"/>
     </hotspots>
     <media/>
     <transition zoomout="0" zoomoutpause="1" type="mesh" zoomspeed="2" blendcolor="0x000000" delay="none" zoomin="2" zoomafteroutfov="40" softedge="0" zoomafterinfov="140" blendtime="1" enabled="1" zoomfov="40"/>
@@ -80,8 +83,9 @@
       <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
       <hotspot title="Chambre Dame 02" skinid="ht_node" pan="-88.41" description="" target="" id="Point01" tilt="-0.68" url="{node3}"/>
       <hotspot title="Chambre Dame" skinid="ht_node" pan="-190.43" description="" target="" id="Point02" tilt="3.53" url="{node5}"/>
-      <hotspot title="Chambre R+1  02" skinid="ht_node" pan="-355.1" description="" target="" id="Point03" tilt="28.76" url="{node8}"/>
+      <hotspot title="Chambre R+1  02" skinid="ht_node" pan="-344.12" description="" target="" id="Point03" tilt="29.79" url="{node8}"/>
       <hotspot title="Cuisine" skinid="ht_node" pan="-26.23" description="" target="" id="Point04" tilt="23.12" url="{node9}"/>
+      <hotspot title="Chambre Enfant" skinid="ht_node" pan="-139.38" description="" target="" id="Point05" tilt="11.38" url="{node10}"/>
     </hotspots>
     <media/>
     <transition zoomout="0" zoomoutpause="1" type="mesh" zoomspeed="2" blendcolor="0x000000" delay="none" zoomin="2" zoomafteroutfov="40" softedge="0" zoomafterinfov="140" blendtime="1" enabled="1" zoomfov="40"/>
@@ -112,6 +116,7 @@
       <hotspot title="Chambre Dame" skinid="ht_node" pan="-319.48" description="" target="" id="Point02" tilt="10.33" url="{node5}"/>
       <hotspot title="Chambre R+1 02 " skinid="ht_node" pan="-84.73" description="" target="" id="Point03" tilt="5.97" url="{node6}"/>
       <hotspot title="Cuisine" skinid="ht_node" pan="-273.28" description="" target="" id="Point04" tilt="17.99" url="{node9}"/>
+      <hotspot title="Chambre Enfant" skinid="ht_node" pan="-345" description="" target="" id="Point05" tilt="-46.52" url="{node10}"/>
     </hotspots>
     <media/>
     <transition zoomout="0" zoomoutpause="1" type="mesh" zoomspeed="2" blendcolor="0x000000" delay="none" zoomin="2" zoomafteroutfov="40" softedge="0" zoomafterinfov="140" blendtime="1" enabled="1" zoomfov="40"/>
@@ -138,10 +143,11 @@
     <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
       <label width="180" textalpha="1" wordwrap="1" background="1" backgroundalpha="1" borderradius="1" textcolor="0x000000" bordercolor="0x000000" borderalpha="1" border="1" backgroundcolor="0xffffff" height="20" enabled="1"/>
       <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot title="Chambre R+1 02 " skinid="ht_node" pan="-29.75" description="" target="" id="Point01" tilt="10.51" url="{node6}"/>
-      <hotspot title="Chambre R+1  02" skinid="ht_node" pan="-329.53" description="" target="" id="Point02" tilt="12.02" url="{node8}"/>
-      <hotspot title="Chambre Dame" skinid="ht_node" pan="-310.46" description="" target="" id="Point03" tilt="10.59" url="{node5}"/>
-      <hotspot title="Cuisine" skinid="ht_node" pan="-345.85" description="" target="" id="Point04" tilt="15.62" url="{node9}"/>
+      <hotspot title="Chambre R+1 02 " skinid="ht_node" pan="-37.08" description="" target="" id="Point01" tilt="12.01" url="{node6}"/>
+      <hotspot title="Chambre R+1  02" skinid="ht_node" pan="-339.53" description="" target="" id="Point02" tilt="17.69" url="{node8}"/>
+      <hotspot title="Chambre Dame" skinid="ht_node" pan="-307.43" description="" target="" id="Point03" tilt="21.36" url="{node5}"/>
+      <hotspot title="Cuisine" skinid="ht_node" pan="-2.11001" description="" target="" id="Point04" tilt="15.36" url="{node9}"/>
+      <hotspot title="Chambre Enfant" skinid="ht_node" pan="-332.02" description="" target="" id="Point05" tilt="-29.26" url="{node10}"/>
     </hotspots>
     <media/>
     <transition zoomout="0" zoomoutpause="1" type="mesh" zoomspeed="2" blendcolor="0x000000" delay="none" zoomin="2" zoomafteroutfov="40" softedge="0" zoomafterinfov="140" blendtime="1" enabled="1" zoomfov="40"/>
@@ -169,9 +175,10 @@
       <label width="180" textalpha="1" wordwrap="1" background="1" backgroundalpha="1" borderradius="1" textcolor="0x000000" bordercolor="0x000000" borderalpha="1" border="1" backgroundcolor="0xffffff" height="20" enabled="1"/>
       <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
       <hotspot title="Chambre R+1  02" skinid="ht_node" pan="-267.9" description="" target="" id="Point01" tilt="0.14" url="{node7}"/>
-      <hotspot title="Chambre R+1  02" skinid="ht_node" pan="-350.58" description="" target="" id="Point02" tilt="-4.13" url="{node8}"/>
-      <hotspot title="Chambre Dame" skinid="ht_node" pan="-329" description="" target="" id="Point03" tilt="-2.31" url="{node5}"/>
-      <hotspot title="Cuisine" skinid="ht_node" pan="-18.4" description="" target="" id="Point04" tilt="13.05" url="{node9}"/>
+      <hotspot title="Chambre R+1  02" skinid="ht_node" pan="-1.04001" description="" target="" id="Point02" tilt="15.13" url="{node8}"/>
+      <hotspot title="Chambre Dame" skinid="ht_node" pan="-330.38" description="" target="" id="Point03" tilt="12.14" url="{node5}"/>
+      <hotspot title="Cuisine" skinid="ht_node" pan="-37.9" description="" target="" id="Point04" tilt="13.94" url="{node9}"/>
+      <hotspot title="Chambre Enfant" skinid="ht_node" pan="-80.45" description="" target="" id="Point05" tilt="14.83" url="{node10}"/>
     </hotspots>
     <media/>
     <transition zoomout="0" zoomoutpause="1" type="mesh" zoomspeed="2" blendcolor="0x000000" delay="none" zoomin="2" zoomafteroutfov="40" softedge="0" zoomafterinfov="140" blendtime="1" enabled="1" zoomfov="40"/>
@@ -200,6 +207,35 @@
       <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
       <hotspot title="Chambre Dame" skinid="ht_node" pan="-54.8" description="" target="" id="Point01" tilt="21.87" url="{node5}"/>
       <hotspot title="Chambre R+1  02" skinid="ht_node" pan="-324.24" description="" target="" id="Point02" tilt="22.56" url="{node8}"/>
+      <hotspot title="Chambre Enfant" skinid="ht_node" pan="-19.46" description="" target="" id="Point03" tilt="24.13" url="{node10}"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" zoomoutpause="1" type="mesh" zoomspeed="2" blendcolor="0x000000" delay="none" zoomin="2" zoomafteroutfov="40" softedge="0" zoomafterinfov="140" blendtime="1" enabled="1" zoomfov="40"/>
+    <autorotate noderandom="1" startloaded="0" horizonfromdefview="0" speed="0.050" delay="0.00" nodedelay="0.00" useanimation="0" returntohorizon="0.000" enabled="1" nodefilter=""/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control dblclickfullscreen="0" lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" simulatemass="1" invertcontrol="1" contextvr="1" invertwheel="0" rubberband="0" contextprojections="0" hideabout="0" lockedmouse="0" lockedwheel="0" speedwheel="1" zoomcentercursor="1" sensitivity="8"/>
+  </panorama>
+  <panorama id="node10">
+    <input width="1500" leveltilesize="510" levelingroll="0" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="1500" levelbias="0.400">
+      <level width="1500" preload="0" predecode="0" height="1500"/>
+      <level width="750" preload="0" predecode="0" height="750"/>
+      <level width="375" preload="1" predecode="1" height="375"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start pan="0" fov="100" projection="4" tilt="0"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" scaletofit="1" fov="140" fovstereographic="330" tilt="90" fovfisheye="360"/>
+    </view>
+    <userdata title="Chambre Enfant" author="" source="" description="" copyright="" datetime="" info="" customnodeid="" nodeid="node10" heading="0" latitude="" longitude="" comment="" tags="Kitcheen"/>
+    <hotspots width="180" wordwrap="1" smoothmovement="0" height="20">
+      <label width="180" textalpha="1" wordwrap="1" background="1" backgroundalpha="1" borderradius="1" textcolor="0x000000" bordercolor="0x000000" borderalpha="1" border="1" backgroundcolor="0xffffff" height="20" enabled="1"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot title="Chambre Dame" skinid="ht_node" pan="-335.97" description="" target="" id="Point01" tilt="13.48" url="{node5}"/>
+      <hotspot title="Chambre R+1  02" skinid="ht_node" pan="-272.6" description="" target="" id="Point02" tilt="27.33" url="{node8}"/>
+      <hotspot title="Cuisine" skinid="ht_node" pan="-289.93" description="" target="" id="Point03" tilt="-52.31" url="{node9}"/>
     </hotspots>
     <media/>
     <transition zoomout="0" zoomoutpause="1" type="mesh" zoomspeed="2" blendcolor="0x000000" delay="none" zoomin="2" zoomafteroutfov="40" softedge="0" zoomafterinfov="140" blendtime="1" enabled="1" zoomfov="40"/>
