@@ -217,7 +217,8 @@
     <control dblclickfullscreen="0" lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" simulatemass="1" invertcontrol="1" contextvr="1" invertwheel="0" rubberband="0" contextprojections="0" hideabout="0" lockedmouse="0" lockedwheel="0" speedwheel="1" zoomcentercursor="1" sensitivity="8"/>
   </panorama>
   <panorama id="node10">
-    <input width="1500" leveltilesize="510" levelingroll="0" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="1500" levelbias="0.400">
+    <input width="3000" leveltilesize="510" levelingroll="0" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="3000" levelbias="0.400">
+      <level width="3000" preload="0" predecode="0" height="3000"/>
       <level width="1500" preload="0" predecode="0" height="1500"/>
       <level width="750" preload="0" predecode="0" height="750"/>
       <level width="375" preload="1" predecode="1" height="375"/>
