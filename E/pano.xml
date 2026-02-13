@@ -1,252 +1,289 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour hassounds="0" appversion="7.1.8" start="node5" apprev="20986">
+<tour appversion="7.1.8" start="node5" hassounds="0" apprev="20986">
   <panorama id="node5">
-    <input levelingroll="0" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" height="3000" width="3000" leveltilesize="510">
-      <level height="3000" preload="0" width="3000" predecode="0"/>
-      <level height="1500" preload="0" width="1500" predecode="0"/>
-      <level height="750" preload="0" width="750" predecode="0"/>
-      <level height="375" preload="1" width="375" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" height="3000" levelbias="0.400" width="3000" leveltilesize="510" overlap="1">
+      <level height="3000" width="3000" predecode="0" preload="0"/>
+      <level height="1500" width="1500" predecode="0" preload="0"/>
+      <level height="750" width="750" predecode="0" preload="0"/>
+      <level height="375" width="375" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start pan="0" projection="4" fov="100" tilt="0"/>
-      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" pan="360" fovfisheye="360" fov="140" tilt="90"/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fov="140" fovstereographic="330" scaletofit="1" fovfisheye="360" pan="360" tilt="90"/>
     </view>
-    <userdata info="" copyright="" heading="0" source="" comment="" tags="Rendus" title="Chambre Dame" description="" datetime="" latitude="" author="" customnodeid="" nodeid="node5" longitude=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label textcolor="0x000000" bordercolor="0x000000" border="1" wordwrap="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" borderalpha="1" height="20" borderradius="1" width="180" background="1" textalpha="1"/>
-      <polystyle borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
-      <hotspot description="" skinid="ht_node" pan="-45.91" id="Point01" url="{node3}" target="" title="Chambre Dame 02" tilt="7.94"/>
-      <hotspot description="" skinid="ht_node" pan="-352.87" id="Point02" url="{node4}" target="" title="Chambre Dame 03" tilt="10.3"/>
-      <hotspot description="" skinid="ht_node" pan="-14.73" id="Point03" url="{node8}" target="" title="Chambre R+1  02" tilt="12.35"/>
-      <hotspot description="" skinid="ht_node" pan="-339.53" id="Point04" url="{node9}" target="" title="Cuisine" tilt="6.31"/>
-      <hotspot description="" skinid="ht_node" pan="-70.16" id="Point05" url="{node10}" target="" title="Chambre Enfant" tilt="14.16"/>
-      <hotspot description="" skinid="ht_node" pan="-10.78" id="Point06" url="{node10}" target="" title="Chambre Enfant" tilt="-26.04"/>
+    <userdata nodeid="node5" title="Chambre Dame" source="" tags="Rendus" description="" info="" longitude="" copyright="" datetime="" author="" customnodeid="" latitude="" comment="" heading="0"/>
+    <hotspots wordwrap="1" smoothmovement="0" height="20" width="180">
+      <label borderradius="1" wordwrap="1" bordercolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" background="1" enabled="1" backgroundcolor="0xffffff" height="20" width="180" border="1" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot title="Chambre Dame 02" id="Point01" pan="-45.91" description="" skinid="ht_node" tilt="7.94" url="{node3}" target=""/>
+      <hotspot title="Chambre Dame 03" id="Point02" pan="-352.87" description="" skinid="ht_node" tilt="10.3" url="{node4}" target=""/>
+      <hotspot title="Chambre R+1  02" id="Point03" pan="-14.73" description="" skinid="ht_node" tilt="12.35" url="{node8}" target=""/>
+      <hotspot title="Cuisine" id="Point04" pan="-339.53" description="" skinid="ht_node" tilt="6.31" url="{node9}" target=""/>
+      <hotspot title="Chambre Enfant" id="Point05" pan="-70.16" description="" skinid="ht_node" tilt="14.16" url="{node10}" target=""/>
+      <hotspot title="Chambre Enfant" id="Point06" pan="-10.78" description="" skinid="ht_node" tilt="-26.04" url="{node10}" target=""/>
+      <hotspot title="Escalier" id="Point07" pan="-32.1" description="" skinid="ht_node" tilt="11.71" url="{node11}" target=""/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomfov="40" zoomout="0" blendcolor="0x000000" enabled="1" type="mesh" zoomspeed="2" zoomafteroutfov="40" delay="none" softedge="0" zoomafterinfov="140" zoomoutpause="1" zoomin="2"/>
-    <autorotate speed="0.050" noderandom="1" enabled="1" returntohorizon="0.000" nodedelay="0.00" horizonfromdefview="0" startloaded="0" delay="0.00" useanimation="0" nodefilter=""/>
+    <transition blendtime="1" zoomfov="40" zoomspeed="2" type="mesh" zoomafteroutfov="40" zoomoutpause="1" delay="none" enabled="1" zoomout="0" zoomin="2" softedge="0" zoomafterinfov="140" blendcolor="0x000000"/>
+    <autorotate noderandom="1" horizonfromdefview="0" startloaded="0" speed="0.050" delay="0.00" enabled="1" nodefilter="" nodedelay="0.00" returntohorizon="0.000" useanimation="0"/>
     <flyintransition speed="2.00" enabled="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" hideabout="0" invertwheel="0" speedwheel="1" contextvr="1" zoomcentercursor="1" dblclickfullscreen="0" rubberband="0" lockedwheel="0" invertcontrol="1"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control speedwheel="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" sensitivity="8" lockedmouse="0" contextvr="1" dblclickfullscreen="0" hideabout="0" contextprojections="0" simulatemass="1" invertwheel="0" lockedkeyboard="0"/>
   </panorama>
   <panorama id="node3">
-    <input levelingroll="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" height="3000" width="3000" leveltilesize="510">
-      <level height="3000" preload="0" width="3000" predecode="0"/>
-      <level height="1500" preload="0" width="1500" predecode="0"/>
-      <level height="750" preload="0" width="750" predecode="0"/>
-      <level height="375" preload="1" width="375" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" height="3000" levelbias="0.400" width="3000" leveltilesize="510" overlap="1">
+      <level height="3000" width="3000" predecode="0" preload="0"/>
+      <level height="1500" width="1500" predecode="0" preload="0"/>
+      <level height="750" width="750" predecode="0" preload="0"/>
+      <level height="375" width="375" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start pan="0" projection="4" fov="100" tilt="0"/>
-      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" pan="360" fovfisheye="360" fov="140" tilt="90"/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fov="140" fovstereographic="330" scaletofit="1" fovfisheye="360" pan="360" tilt="90"/>
     </view>
-    <userdata info="" copyright="" heading="0" source="" comment="" tags="Rendus" title="Chambre Dame 02" description="" datetime="" latitude="" author="" customnodeid="" nodeid="node3" longitude=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label textcolor="0x000000" bordercolor="0x000000" border="1" wordwrap="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" borderalpha="1" height="20" borderradius="1" width="180" background="1" textalpha="1"/>
-      <polystyle borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
-      <hotspot description="" skinid="ht_node" pan="-41.95" id="Point01" url="{node5}" target="" title="Chambre Dame" tilt="11.75"/>
-      <hotspot description="" skinid="ht_node" pan="-92.42" id="Point02" url="{node4}" target="" title="Chambre Dame 03" tilt="3.27"/>
-      <hotspot description="" skinid="ht_node" pan="-334.78" id="Point03" url="{node8}" target="" title="Chambre R+1  02" tilt="16.48"/>
-      <hotspot description="" skinid="ht_node" pan="-10.7" id="Point04" url="{node9}" target="" title="Cuisine" tilt="10.6"/>
-      <hotspot description="" skinid="ht_node" pan="-72.37" id="Point05" url="{node10}" target="" title="Chambre Enfant" tilt="16.78"/>
+    <userdata nodeid="node3" title="Chambre Dame 02" source="" tags="Rendus" description="" info="" longitude="" copyright="" datetime="" author="" customnodeid="" latitude="" comment="" heading="0"/>
+    <hotspots wordwrap="1" smoothmovement="0" height="20" width="180">
+      <label borderradius="1" wordwrap="1" bordercolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" background="1" enabled="1" backgroundcolor="0xffffff" height="20" width="180" border="1" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot title="Chambre Dame" id="Point01" pan="-41.95" description="" skinid="ht_node" tilt="11.75" url="{node5}" target=""/>
+      <hotspot title="Chambre Dame 03" id="Point02" pan="-92.42" description="" skinid="ht_node" tilt="3.27" url="{node4}" target=""/>
+      <hotspot title="Chambre R+1  02" id="Point03" pan="-334.78" description="" skinid="ht_node" tilt="16.48" url="{node8}" target=""/>
+      <hotspot title="Cuisine" id="Point04" pan="-10.7" description="" skinid="ht_node" tilt="10.6" url="{node9}" target=""/>
+      <hotspot title="Chambre Enfant" id="Point05" pan="-72.37" description="" skinid="ht_node" tilt="16.78" url="{node10}" target=""/>
+      <hotspot title="Escalier" id="Point06" pan="-353.47" description="" skinid="ht_node" tilt="11.08" url="{node11}" target=""/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomfov="40" zoomout="0" blendcolor="0x000000" enabled="1" type="mesh" zoomspeed="2" zoomafteroutfov="40" delay="none" softedge="0" zoomafterinfov="140" zoomoutpause="1" zoomin="2"/>
-    <autorotate speed="0.050" noderandom="1" enabled="1" returntohorizon="0.000" nodedelay="0.00" horizonfromdefview="0" startloaded="0" delay="0.00" useanimation="0" nodefilter=""/>
+    <transition blendtime="1" zoomfov="40" zoomspeed="2" type="mesh" zoomafteroutfov="40" zoomoutpause="1" delay="none" enabled="1" zoomout="0" zoomin="2" softedge="0" zoomafterinfov="140" blendcolor="0x000000"/>
+    <autorotate noderandom="1" horizonfromdefview="0" startloaded="0" speed="0.050" delay="0.00" enabled="1" nodefilter="" nodedelay="0.00" returntohorizon="0.000" useanimation="0"/>
     <flyintransition speed="2.00" enabled="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" hideabout="0" invertwheel="0" speedwheel="1" contextvr="1" zoomcentercursor="1" dblclickfullscreen="0" rubberband="0" lockedwheel="0" invertcontrol="1"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control speedwheel="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" sensitivity="8" lockedmouse="0" contextvr="1" dblclickfullscreen="0" hideabout="0" contextprojections="0" simulatemass="1" invertwheel="0" lockedkeyboard="0"/>
   </panorama>
   <panorama id="node4">
-    <input levelingroll="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" height="3000" width="3000" leveltilesize="510">
-      <level height="3000" preload="0" width="3000" predecode="0"/>
-      <level height="1500" preload="0" width="1500" predecode="0"/>
-      <level height="750" preload="0" width="750" predecode="0"/>
-      <level height="375" preload="1" width="375" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" height="3000" levelbias="0.400" width="3000" leveltilesize="510" overlap="1">
+      <level height="3000" width="3000" predecode="0" preload="0"/>
+      <level height="1500" width="1500" predecode="0" preload="0"/>
+      <level height="750" width="750" predecode="0" preload="0"/>
+      <level height="375" width="375" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start pan="0" projection="4" fov="100" tilt="0"/>
-      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" pan="360" fovfisheye="360" fov="140" tilt="90"/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fov="140" fovstereographic="330" scaletofit="1" fovfisheye="360" pan="360" tilt="90"/>
     </view>
-    <userdata info="" copyright="" heading="0" source="" comment="" tags="Rendus" title="Chambre Dame 03" description="" datetime="" latitude="" author="" customnodeid="" nodeid="node4" longitude=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label textcolor="0x000000" bordercolor="0x000000" border="1" wordwrap="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" borderalpha="1" height="20" borderradius="1" width="180" background="1" textalpha="1"/>
-      <polystyle borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
-      <hotspot description="" skinid="ht_node" pan="-88.41" id="Point01" url="{node3}" target="" title="Chambre Dame 02" tilt="-0.68"/>
-      <hotspot description="" skinid="ht_node" pan="-190.43" id="Point02" url="{node5}" target="" title="Chambre Dame" tilt="3.53"/>
-      <hotspot description="" skinid="ht_node" pan="-344.12" id="Point03" url="{node8}" target="" title="Chambre R+1  02" tilt="29.79"/>
-      <hotspot description="" skinid="ht_node" pan="-26.23" id="Point04" url="{node9}" target="" title="Cuisine" tilt="23.12"/>
-      <hotspot description="" skinid="ht_node" pan="-139.38" id="Point05" url="{node10}" target="" title="Chambre Enfant" tilt="11.38"/>
+    <userdata nodeid="node4" title="Chambre Dame 03" source="" tags="Rendus" description="" info="" longitude="" copyright="" datetime="" author="" customnodeid="" latitude="" comment="" heading="0"/>
+    <hotspots wordwrap="1" smoothmovement="0" height="20" width="180">
+      <label borderradius="1" wordwrap="1" bordercolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" background="1" enabled="1" backgroundcolor="0xffffff" height="20" width="180" border="1" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot title="Chambre Dame 02" id="Point01" pan="-88.41" description="" skinid="ht_node" tilt="-0.68" url="{node3}" target=""/>
+      <hotspot title="Chambre Dame" id="Point02" pan="-190.43" description="" skinid="ht_node" tilt="3.53" url="{node5}" target=""/>
+      <hotspot title="Chambre R+1  02" id="Point03" pan="-344.12" description="" skinid="ht_node" tilt="29.79" url="{node8}" target=""/>
+      <hotspot title="Cuisine" id="Point04" pan="-26.23" description="" skinid="ht_node" tilt="23.12" url="{node9}" target=""/>
+      <hotspot title="Chambre Enfant" id="Point05" pan="-139.38" description="" skinid="ht_node" tilt="11.38" url="{node10}" target=""/>
+      <hotspot title="Escalier" id="Point06" pan="-7.64" description="" skinid="ht_node" tilt="31.19" url="{node11}" target=""/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomfov="40" zoomout="0" blendcolor="0x000000" enabled="1" type="mesh" zoomspeed="2" zoomafteroutfov="40" delay="none" softedge="0" zoomafterinfov="140" zoomoutpause="1" zoomin="2"/>
-    <autorotate speed="0.050" noderandom="1" enabled="1" returntohorizon="0.000" nodedelay="0.00" horizonfromdefview="0" startloaded="0" delay="0.00" useanimation="0" nodefilter=""/>
+    <transition blendtime="1" zoomfov="40" zoomspeed="2" type="mesh" zoomafteroutfov="40" zoomoutpause="1" delay="none" enabled="1" zoomout="0" zoomin="2" softedge="0" zoomafterinfov="140" blendcolor="0x000000"/>
+    <autorotate noderandom="1" horizonfromdefview="0" startloaded="0" speed="0.050" delay="0.00" enabled="1" nodefilter="" nodedelay="0.00" returntohorizon="0.000" useanimation="0"/>
     <flyintransition speed="2.00" enabled="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" hideabout="0" invertwheel="0" speedwheel="1" contextvr="1" zoomcentercursor="1" dblclickfullscreen="0" rubberband="0" lockedwheel="0" invertcontrol="1"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control speedwheel="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" sensitivity="8" lockedmouse="0" contextvr="1" dblclickfullscreen="0" hideabout="0" contextprojections="0" simulatemass="1" invertwheel="0" lockedkeyboard="0"/>
   </panorama>
   <panorama id="node8">
-    <input levelingroll="0" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" height="3000" width="3000" leveltilesize="510">
-      <level height="3000" preload="0" width="3000" predecode="0"/>
-      <level height="1500" preload="0" width="1500" predecode="0"/>
-      <level height="750" preload="0" width="750" predecode="0"/>
-      <level height="375" preload="1" width="375" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" height="3000" levelbias="0.400" width="3000" leveltilesize="510" overlap="1">
+      <level height="3000" width="3000" predecode="0" preload="0"/>
+      <level height="1500" width="1500" predecode="0" preload="0"/>
+      <level height="750" width="750" predecode="0" preload="0"/>
+      <level height="375" width="375" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start pan="0" projection="4" fov="100" tilt="0"/>
-      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" pan="360" fovfisheye="360" fov="140" tilt="90"/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fov="140" fovstereographic="330" scaletofit="1" fovfisheye="360" pan="360" tilt="90"/>
     </view>
-    <userdata info="" copyright="" heading="0" source="" comment="" tags="R1" title="Chambre R+1  02" description="" datetime="" latitude="" author="" customnodeid="" nodeid="node8" longitude=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label textcolor="0x000000" bordercolor="0x000000" border="1" wordwrap="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" borderalpha="1" height="20" borderradius="1" width="180" background="1" textalpha="1"/>
-      <polystyle borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
-      <hotspot description="" skinid="ht_node" pan="-31.68" id="Point01" url="{node7}" target="" title="Chambre R+1  02" tilt="13.56"/>
-      <hotspot description="" skinid="ht_node" pan="-319.48" id="Point02" url="{node5}" target="" title="Chambre Dame" tilt="10.33"/>
-      <hotspot description="" skinid="ht_node" pan="-84.73" id="Point03" url="{node6}" target="" title="Chambre R+1 02 " tilt="5.97"/>
-      <hotspot description="" skinid="ht_node" pan="-273.28" id="Point04" url="{node9}" target="" title="Cuisine" tilt="17.99"/>
-      <hotspot description="" skinid="ht_node" pan="-345" id="Point05" url="{node10}" target="" title="Chambre Enfant" tilt="-46.52"/>
+    <userdata nodeid="node8" title="Chambre R+1  02" source="" tags="R1" description="" info="" longitude="" copyright="" datetime="" author="" customnodeid="" latitude="" comment="" heading="0"/>
+    <hotspots wordwrap="1" smoothmovement="0" height="20" width="180">
+      <label borderradius="1" wordwrap="1" bordercolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" background="1" enabled="1" backgroundcolor="0xffffff" height="20" width="180" border="1" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot title="Chambre R+1  02" id="Point01" pan="-31.68" description="" skinid="ht_node" tilt="13.56" url="{node7}" target=""/>
+      <hotspot title="Chambre Dame" id="Point02" pan="-319.48" description="" skinid="ht_node" tilt="10.33" url="{node5}" target=""/>
+      <hotspot title="Chambre R+1 02 " id="Point03" pan="-84.73" description="" skinid="ht_node" tilt="5.97" url="{node6}" target=""/>
+      <hotspot title="Cuisine" id="Point04" pan="-273.28" description="" skinid="ht_node" tilt="17.99" url="{node9}" target=""/>
+      <hotspot title="Chambre Enfant" id="Point05" pan="-345" description="" skinid="ht_node" tilt="-46.52" url="{node10}" target=""/>
+      <hotspot title="Escalier" id="Point06" pan="-355.63" description="" skinid="ht_node" tilt="20.38" url="{node11}" target=""/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomfov="40" zoomout="0" blendcolor="0x000000" enabled="1" type="mesh" zoomspeed="2" zoomafteroutfov="40" delay="none" softedge="0" zoomafterinfov="140" zoomoutpause="1" zoomin="2"/>
-    <autorotate speed="0.050" noderandom="1" enabled="1" returntohorizon="0.000" nodedelay="0.00" horizonfromdefview="0" startloaded="0" delay="0.00" useanimation="0" nodefilter=""/>
+    <transition blendtime="1" zoomfov="40" zoomspeed="2" type="mesh" zoomafteroutfov="40" zoomoutpause="1" delay="none" enabled="1" zoomout="0" zoomin="2" softedge="0" zoomafterinfov="140" blendcolor="0x000000"/>
+    <autorotate noderandom="1" horizonfromdefview="0" startloaded="0" speed="0.050" delay="0.00" enabled="1" nodefilter="" nodedelay="0.00" returntohorizon="0.000" useanimation="0"/>
     <flyintransition speed="2.00" enabled="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" hideabout="0" invertwheel="0" speedwheel="1" contextvr="1" zoomcentercursor="1" dblclickfullscreen="0" rubberband="0" lockedwheel="0" invertcontrol="1"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control speedwheel="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" sensitivity="8" lockedmouse="0" contextvr="1" dblclickfullscreen="0" hideabout="0" contextprojections="0" simulatemass="1" invertwheel="0" lockedkeyboard="0"/>
   </panorama>
   <panorama id="node7">
-    <input levelingroll="0" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" height="3000" width="3000" leveltilesize="510">
-      <level height="3000" preload="0" width="3000" predecode="0"/>
-      <level height="1500" preload="0" width="1500" predecode="0"/>
-      <level height="750" preload="0" width="750" predecode="0"/>
-      <level height="375" preload="1" width="375" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" height="3000" levelbias="0.400" width="3000" leveltilesize="510" overlap="1">
+      <level height="3000" width="3000" predecode="0" preload="0"/>
+      <level height="1500" width="1500" predecode="0" preload="0"/>
+      <level height="750" width="750" predecode="0" preload="0"/>
+      <level height="375" width="375" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start pan="0" projection="4" fov="100" tilt="0"/>
-      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" pan="360" fovfisheye="360" fov="140" tilt="90"/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fov="140" fovstereographic="330" scaletofit="1" fovfisheye="360" pan="360" tilt="90"/>
     </view>
-    <userdata info="" copyright="" heading="0" source="" comment="" tags="R1" title="Chambre R+1  02" description="" datetime="" latitude="" author="" customnodeid="" nodeid="node7" longitude=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label textcolor="0x000000" bordercolor="0x000000" border="1" wordwrap="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" borderalpha="1" height="20" borderradius="1" width="180" background="1" textalpha="1"/>
-      <polystyle borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
-      <hotspot description="" skinid="ht_node" pan="-37.08" id="Point01" url="{node6}" target="" title="Chambre R+1 02 " tilt="12.01"/>
-      <hotspot description="" skinid="ht_node" pan="-339.53" id="Point02" url="{node8}" target="" title="Chambre R+1  02" tilt="17.69"/>
-      <hotspot description="" skinid="ht_node" pan="-307.43" id="Point03" url="{node5}" target="" title="Chambre Dame" tilt="21.36"/>
-      <hotspot description="" skinid="ht_node" pan="-2.11001" id="Point04" url="{node9}" target="" title="Cuisine" tilt="15.36"/>
-      <hotspot description="" skinid="ht_node" pan="-332.02" id="Point05" url="{node10}" target="" title="Chambre Enfant" tilt="-29.26"/>
+    <userdata nodeid="node7" title="Chambre R+1  02" source="" tags="R1" description="" info="" longitude="" copyright="" datetime="" author="" customnodeid="" latitude="" comment="" heading="0"/>
+    <hotspots wordwrap="1" smoothmovement="0" height="20" width="180">
+      <label borderradius="1" wordwrap="1" bordercolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" background="1" enabled="1" backgroundcolor="0xffffff" height="20" width="180" border="1" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot title="Chambre R+1 02 " id="Point01" pan="-37.08" description="" skinid="ht_node" tilt="12.01" url="{node6}" target=""/>
+      <hotspot title="Chambre R+1  02" id="Point02" pan="-339.53" description="" skinid="ht_node" tilt="17.69" url="{node8}" target=""/>
+      <hotspot title="Chambre Dame" id="Point03" pan="-307.43" description="" skinid="ht_node" tilt="21.36" url="{node5}" target=""/>
+      <hotspot title="Cuisine" id="Point04" pan="-2.11001" description="" skinid="ht_node" tilt="15.36" url="{node9}" target=""/>
+      <hotspot title="Chambre Enfant" id="Point05" pan="-332.02" description="" skinid="ht_node" tilt="-29.26" url="{node10}" target=""/>
+      <hotspot title="Escalier" id="Point06" pan="-20.66" description="" skinid="ht_node" tilt="14.7" url="{node11}" target=""/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomfov="40" zoomout="0" blendcolor="0x000000" enabled="1" type="mesh" zoomspeed="2" zoomafteroutfov="40" delay="none" softedge="0" zoomafterinfov="140" zoomoutpause="1" zoomin="2"/>
-    <autorotate speed="0.050" noderandom="1" enabled="1" returntohorizon="0.000" nodedelay="0.00" horizonfromdefview="0" startloaded="0" delay="0.00" useanimation="0" nodefilter=""/>
+    <transition blendtime="1" zoomfov="40" zoomspeed="2" type="mesh" zoomafteroutfov="40" zoomoutpause="1" delay="none" enabled="1" zoomout="0" zoomin="2" softedge="0" zoomafterinfov="140" blendcolor="0x000000"/>
+    <autorotate noderandom="1" horizonfromdefview="0" startloaded="0" speed="0.050" delay="0.00" enabled="1" nodefilter="" nodedelay="0.00" returntohorizon="0.000" useanimation="0"/>
     <flyintransition speed="2.00" enabled="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" hideabout="0" invertwheel="0" speedwheel="1" contextvr="1" zoomcentercursor="1" dblclickfullscreen="0" rubberband="0" lockedwheel="0" invertcontrol="1"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control speedwheel="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" sensitivity="8" lockedmouse="0" contextvr="1" dblclickfullscreen="0" hideabout="0" contextprojections="0" simulatemass="1" invertwheel="0" lockedkeyboard="0"/>
   </panorama>
   <panorama id="node6">
-    <input levelingroll="0" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" height="3000" width="3000" leveltilesize="510">
-      <level height="3000" preload="0" width="3000" predecode="0"/>
-      <level height="1500" preload="0" width="1500" predecode="0"/>
-      <level height="750" preload="0" width="750" predecode="0"/>
-      <level height="375" preload="1" width="375" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" height="3000" levelbias="0.400" width="3000" leveltilesize="510" overlap="1">
+      <level height="3000" width="3000" predecode="0" preload="0"/>
+      <level height="1500" width="1500" predecode="0" preload="0"/>
+      <level height="750" width="750" predecode="0" preload="0"/>
+      <level height="375" width="375" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start pan="0" projection="4" fov="100" tilt="0"/>
-      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" pan="360" fovfisheye="360" fov="140" tilt="90"/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fov="140" fovstereographic="330" scaletofit="1" fovfisheye="360" pan="360" tilt="90"/>
     </view>
-    <userdata info="" copyright="" heading="0" source="" comment="" tags="R1" title="Chambre R+1 02 " description="" datetime="" latitude="" author="" customnodeid="" nodeid="node6" longitude=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label textcolor="0x000000" bordercolor="0x000000" border="1" wordwrap="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" borderalpha="1" height="20" borderradius="1" width="180" background="1" textalpha="1"/>
-      <polystyle borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
-      <hotspot description="" skinid="ht_node" pan="-267.9" id="Point01" url="{node7}" target="" title="Chambre R+1  02" tilt="0.14"/>
-      <hotspot description="" skinid="ht_node" pan="-1.04001" id="Point02" url="{node8}" target="" title="Chambre R+1  02" tilt="15.13"/>
-      <hotspot description="" skinid="ht_node" pan="-330.38" id="Point03" url="{node5}" target="" title="Chambre Dame" tilt="12.14"/>
-      <hotspot description="" skinid="ht_node" pan="-37.9" id="Point04" url="{node9}" target="" title="Cuisine" tilt="13.94"/>
-      <hotspot description="" skinid="ht_node" pan="-80.45" id="Point05" url="{node10}" target="" title="Chambre Enfant" tilt="14.83"/>
+    <userdata nodeid="node6" title="Chambre R+1 02 " source="" tags="R1" description="" info="" longitude="" copyright="" datetime="" author="" customnodeid="" latitude="" comment="" heading="0"/>
+    <hotspots wordwrap="1" smoothmovement="0" height="20" width="180">
+      <label borderradius="1" wordwrap="1" bordercolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" background="1" enabled="1" backgroundcolor="0xffffff" height="20" width="180" border="1" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot title="Chambre R+1  02" id="Point01" pan="-267.9" description="" skinid="ht_node" tilt="0.14" url="{node7}" target=""/>
+      <hotspot title="Chambre R+1  02" id="Point02" pan="-1.04001" description="" skinid="ht_node" tilt="15.13" url="{node8}" target=""/>
+      <hotspot title="Chambre Dame" id="Point03" pan="-330.38" description="" skinid="ht_node" tilt="12.14" url="{node5}" target=""/>
+      <hotspot title="Cuisine" id="Point04" pan="-37.9" description="" skinid="ht_node" tilt="13.94" url="{node9}" target=""/>
+      <hotspot title="Chambre Enfant" id="Point05" pan="-80.45" description="" skinid="ht_node" tilt="14.83" url="{node10}" target=""/>
+      <hotspot title="Escalier" id="Point06" pan="-55.6" description="" skinid="ht_node" tilt="15.28" url="{node11}" target=""/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomfov="40" zoomout="0" blendcolor="0x000000" enabled="1" type="mesh" zoomspeed="2" zoomafteroutfov="40" delay="none" softedge="0" zoomafterinfov="140" zoomoutpause="1" zoomin="2"/>
-    <autorotate speed="0.050" noderandom="1" enabled="1" returntohorizon="0.000" nodedelay="0.00" horizonfromdefview="0" startloaded="0" delay="0.00" useanimation="0" nodefilter=""/>
+    <transition blendtime="1" zoomfov="40" zoomspeed="2" type="mesh" zoomafteroutfov="40" zoomoutpause="1" delay="none" enabled="1" zoomout="0" zoomin="2" softedge="0" zoomafterinfov="140" blendcolor="0x000000"/>
+    <autorotate noderandom="1" horizonfromdefview="0" startloaded="0" speed="0.050" delay="0.00" enabled="1" nodefilter="" nodedelay="0.00" returntohorizon="0.000" useanimation="0"/>
     <flyintransition speed="2.00" enabled="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" hideabout="0" invertwheel="0" speedwheel="1" contextvr="1" zoomcentercursor="1" dblclickfullscreen="0" rubberband="0" lockedwheel="0" invertcontrol="1"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control speedwheel="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" sensitivity="8" lockedmouse="0" contextvr="1" dblclickfullscreen="0" hideabout="0" contextprojections="0" simulatemass="1" invertwheel="0" lockedkeyboard="0"/>
   </panorama>
   <panorama id="node9">
-    <input levelingroll="0" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" height="3000" width="3000" leveltilesize="510">
-      <level height="3000" preload="0" width="3000" predecode="0"/>
-      <level height="1500" preload="0" width="1500" predecode="0"/>
-      <level height="750" preload="0" width="750" predecode="0"/>
-      <level height="375" preload="1" width="375" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" height="3000" levelbias="0.400" width="3000" leveltilesize="510" overlap="1">
+      <level height="3000" width="3000" predecode="0" preload="0"/>
+      <level height="1500" width="1500" predecode="0" preload="0"/>
+      <level height="750" width="750" predecode="0" preload="0"/>
+      <level height="375" width="375" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start pan="0" projection="4" fov="100" tilt="0"/>
-      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" pan="360" fovfisheye="360" fov="140" tilt="90"/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fov="140" fovstereographic="330" scaletofit="1" fovfisheye="360" pan="360" tilt="90"/>
     </view>
-    <userdata info="" copyright="" heading="0" source="" comment="" tags="Kitcheen" title="Cuisine" description="" datetime="" latitude="" author="" customnodeid="" nodeid="node9" longitude=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label textcolor="0x000000" bordercolor="0x000000" border="1" wordwrap="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" borderalpha="1" height="20" borderradius="1" width="180" background="1" textalpha="1"/>
-      <polystyle borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
-      <hotspot description="" skinid="ht_node" pan="-54.8" id="Point01" url="{node5}" target="" title="Chambre Dame" tilt="21.87"/>
-      <hotspot description="" skinid="ht_node" pan="-324.24" id="Point02" url="{node8}" target="" title="Chambre R+1  02" tilt="22.56"/>
-      <hotspot description="" skinid="ht_node" pan="-19.46" id="Point03" url="{node10}" target="" title="Chambre Enfant" tilt="24.13"/>
+    <userdata nodeid="node9" title="Cuisine" source="" tags="Kitcheen" description="" info="" longitude="" copyright="" datetime="" author="" customnodeid="" latitude="" comment="" heading="0"/>
+    <hotspots wordwrap="1" smoothmovement="0" height="20" width="180">
+      <label borderradius="1" wordwrap="1" bordercolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" background="1" enabled="1" backgroundcolor="0xffffff" height="20" width="180" border="1" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot title="Chambre Dame" id="Point01" pan="-54.8" description="" skinid="ht_node" tilt="21.87" url="{node5}" target=""/>
+      <hotspot title="Chambre R+1  02" id="Point02" pan="-324.24" description="" skinid="ht_node" tilt="22.56" url="{node8}" target=""/>
+      <hotspot title="Chambre Enfant" id="Point03" pan="-19.46" description="" skinid="ht_node" tilt="24.13" url="{node10}" target=""/>
+      <hotspot title="Escalier" id="Point04" pan="-352.15" description="" skinid="ht_node" tilt="25.43" url="{node11}" target=""/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomfov="40" zoomout="0" blendcolor="0x000000" enabled="1" type="mesh" zoomspeed="2" zoomafteroutfov="40" delay="none" softedge="0" zoomafterinfov="140" zoomoutpause="1" zoomin="2"/>
-    <autorotate speed="0.050" noderandom="1" enabled="1" returntohorizon="0.000" nodedelay="0.00" horizonfromdefview="0" startloaded="0" delay="0.00" useanimation="0" nodefilter=""/>
+    <transition blendtime="1" zoomfov="40" zoomspeed="2" type="mesh" zoomafteroutfov="40" zoomoutpause="1" delay="none" enabled="1" zoomout="0" zoomin="2" softedge="0" zoomafterinfov="140" blendcolor="0x000000"/>
+    <autorotate noderandom="1" horizonfromdefview="0" startloaded="0" speed="0.050" delay="0.00" enabled="1" nodefilter="" nodedelay="0.00" returntohorizon="0.000" useanimation="0"/>
     <flyintransition speed="2.00" enabled="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" hideabout="0" invertwheel="0" speedwheel="1" contextvr="1" zoomcentercursor="1" dblclickfullscreen="0" rubberband="0" lockedwheel="0" invertcontrol="1"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control speedwheel="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" sensitivity="8" lockedmouse="0" contextvr="1" dblclickfullscreen="0" hideabout="0" contextprojections="0" simulatemass="1" invertwheel="0" lockedkeyboard="0"/>
   </panorama>
   <panorama id="node10">
-    <input levelingroll="0" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" height="3000" width="3000" leveltilesize="510">
-      <level height="3000" preload="0" width="3000" predecode="0"/>
-      <level height="1500" preload="0" width="1500" predecode="0"/>
-      <level height="750" preload="0" width="750" predecode="0"/>
-      <level height="375" preload="1" width="375" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" height="3000" levelbias="0.400" width="3000" leveltilesize="510" overlap="1">
+      <level height="3000" width="3000" predecode="0" preload="0"/>
+      <level height="1500" width="1500" predecode="0" preload="0"/>
+      <level height="750" width="750" predecode="0" preload="0"/>
+      <level height="375" width="375" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="2">
-      <start pan="0" projection="4" fov="100" tilt="0"/>
-      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
-      <min pan="0" fovpixel="2" tilt="-90"/>
-      <max fovstereographic="330" scaletofit="1" pan="360" fovfisheye="360" fov="140" tilt="90"/>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fov="140" fovstereographic="330" scaletofit="1" fovfisheye="360" pan="360" tilt="90"/>
     </view>
-    <userdata info="" copyright="" heading="0" source="" comment="" tags="Kitcheen" title="Chambre Enfant" description="" datetime="" latitude="" author="" customnodeid="" nodeid="node10" longitude=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label textcolor="0x000000" bordercolor="0x000000" border="1" wordwrap="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" borderalpha="1" height="20" borderradius="1" width="180" background="1" textalpha="1"/>
-      <polystyle borderalpha="1" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0"/>
-      <hotspot description="" skinid="ht_node" pan="-335.97" id="Point01" url="{node5}" target="" title="Chambre Dame" tilt="13.48"/>
-      <hotspot description="" skinid="ht_node" pan="-272.6" id="Point02" url="{node8}" target="" title="Chambre R+1  02" tilt="27.33"/>
-      <hotspot description="" skinid="ht_node" pan="-289.93" id="Point03" url="{node9}" target="" title="Cuisine" tilt="-52.31"/>
+    <userdata nodeid="node10" title="Chambre Enfant" source="" tags="Kitcheen" description="" info="" longitude="" copyright="" datetime="" author="" customnodeid="" latitude="" comment="" heading="0"/>
+    <hotspots wordwrap="1" smoothmovement="0" height="20" width="180">
+      <label borderradius="1" wordwrap="1" bordercolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" background="1" enabled="1" backgroundcolor="0xffffff" height="20" width="180" border="1" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot title="Chambre Dame" id="Point01" pan="-335.97" description="" skinid="ht_node" tilt="13.48" url="{node5}" target=""/>
+      <hotspot title="Chambre R+1  02" id="Point02" pan="-272.6" description="" skinid="ht_node" tilt="27.33" url="{node8}" target=""/>
+      <hotspot title="Cuisine" id="Point03" pan="-289.93" description="" skinid="ht_node" tilt="-52.31" url="{node9}" target=""/>
+      <hotspot title="Escalier" id="Point04" pan="-356.41" description="" skinid="ht_node" tilt="14.83" url="{node11}" target=""/>
     </hotspots>
     <media/>
-    <transition blendtime="1" zoomfov="40" zoomout="0" blendcolor="0x000000" enabled="1" type="mesh" zoomspeed="2" zoomafteroutfov="40" delay="none" softedge="0" zoomafterinfov="140" zoomoutpause="1" zoomin="2"/>
-    <autorotate speed="0.050" noderandom="1" enabled="1" returntohorizon="0.000" nodedelay="0.00" horizonfromdefview="0" startloaded="0" delay="0.00" useanimation="0" nodefilter=""/>
+    <transition blendtime="1" zoomfov="40" zoomspeed="2" type="mesh" zoomafteroutfov="40" zoomoutpause="1" delay="none" enabled="1" zoomout="0" zoomin="2" softedge="0" zoomafterinfov="140" blendcolor="0x000000"/>
+    <autorotate noderandom="1" horizonfromdefview="0" startloaded="0" speed="0.050" delay="0.00" enabled="1" nodefilter="" nodedelay="0.00" returntohorizon="0.000" useanimation="0"/>
     <flyintransition speed="2.00" enabled="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0" clipsrandom="0"/>
-    <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" contextprojections="0" hideabout="0" invertwheel="0" speedwheel="1" contextvr="1" zoomcentercursor="1" dblclickfullscreen="0" rubberband="0" lockedwheel="0" invertcontrol="1"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control speedwheel="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" sensitivity="8" lockedmouse="0" contextvr="1" dblclickfullscreen="0" hideabout="0" contextprojections="0" simulatemass="1" invertwheel="0" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node11">
+    <input leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" height="3000" levelbias="0.400" width="3000" leveltilesize="510" overlap="1">
+      <level height="3000" width="3000" predecode="0" preload="0"/>
+      <level height="1500" width="1500" predecode="0" preload="0"/>
+      <level height="750" width="750" predecode="0" preload="0"/>
+      <level height="375" width="375" predecode="1" preload="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="2" pannorth="0">
+      <start fov="100" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="-56.64" tilt="-45.45"/>
+      <max fov="140" fovstereographic="330" scaletofit="1" fovfisheye="360" pan="79.54" tilt="29.77"/>
+    </view>
+    <userdata nodeid="node11" title="Escalier" source="" tags="Escalier" description="" info="" longitude="" copyright="" datetime="" author="" customnodeid="" latitude="" comment="" heading="0"/>
+    <hotspots wordwrap="1" smoothmovement="0" height="20" width="180">
+      <label borderradius="1" wordwrap="1" bordercolor="0x000000" textalpha="1" backgroundalpha="1" borderalpha="1" background="1" enabled="1" backgroundcolor="0xffffff" height="20" width="180" border="1" textcolor="0x000000"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" backgroundalpha="0.25098" borderalpha="1" handcursor="1"/>
+      <hotspot title="Chambre Dame" id="Point01" pan="-328.44" description="" skinid="ht_node" tilt="22.16" url="{node5}" target=""/>
+      <hotspot title="Cuisine" id="Point02" pan="-343.01" description="" skinid="ht_node" tilt="26.95" url="{node9}" target=""/>
+      <hotspot title="Chambre Enfant" id="Point03" pan="-336.85" description="" skinid="ht_node" tilt="-27.27" url="{node10}" target=""/>
+    </hotspots>
+    <media/>
+    <transition blendtime="1" zoomfov="40" zoomspeed="2" type="mesh" zoomafteroutfov="40" zoomoutpause="1" delay="none" enabled="1" zoomout="0" zoomin="2" softedge="0" zoomafterinfov="140" blendcolor="0x000000"/>
+    <autorotate noderandom="1" horizonfromdefview="0" startloaded="0" speed="0.050" delay="0.00" enabled="1" nodefilter="" nodedelay="0.00" returntohorizon="0.000" useanimation="0"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" clipsrandom="0" useinautorotation="0" animsequence="Animation01"/>
+    <control speedwheel="1" rubberband="0" zoomcentercursor="1" contextfullscreen="1" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" sensitivity="8" lockedmouse="0" contextvr="1" dblclickfullscreen="0" hideabout="0" contextprojections="0" simulatemass="1" invertwheel="0" lockedkeyboard="0"/>
   </panorama>
   <masternode>
-    <userdata copyright="" author="" comment="" tags="" title="" description=""/>
+    <userdata tags="" title="" copyright="" author="" description="" comment=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
