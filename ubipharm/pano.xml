@@ -297,7 +297,7 @@
     </view>
     <hotspots>
       <hotspot description="" id="Point01" pan="156.06" skinid="ht_node" target="" tilt="1.5" title="Couloir 02" url="{node12}"/>
-      <hotspot description="" id="Point02" pan="-41.7" skinid="ht_node" target="" tilt="-30.17" title="Bureau DG 02" url="{node7}"/>
+      <hotspot description="" id="Point02" pan="-86.68" skinid="ht_node" target="" tilt="-1.76" title="Bureau DG 02" url="{node7}"/>
       <hotspot description="" id="Point03" pan="-24.33" skinid="ht_node" target="" tilt="-3.93" title="Bureau DG 03" url="{node9}"/>
     </hotspots>
     <media/>
