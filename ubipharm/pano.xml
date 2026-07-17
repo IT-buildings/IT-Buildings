@@ -38,7 +38,7 @@
       <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
     </view>
     <hotspots>
-      <hotspot description="" id="Point02" pan="145.68" skinid="ht_node" target="" tilt="-8.58" title="DAF 01" url="{node15}"/>
+      <hotspot description="" id="Point02" pan="169.52" skinid="ht_node" target="" tilt="-2.49" title="DAF 01" url="{node15}"/>
       <hotspot description="" id="Point03" pan="-179.06" skinid="ht_node" target="" tilt="-10.96" title="Couloir 02" url="{node12}"/>
       <hotspot description="" id="Point05" pan="-23.08" skinid="ht_node" target="" tilt="-3.92" title="Couloir 03" url="{node11}"/>
       <hotspot description="" id="Point06" pan="-1.16" skinid="ht_node" target="" tilt="-10.99" title="Couloir 04" url="{node14}"/>
@@ -46,6 +46,7 @@
       <hotspot description="" id="Point07" pan="97.27" skinid="ht_node" target="" tilt="-9.73" title="Pool Comptable 01" url="{node6}"/>
       <hotspot description="" id="Point04" pan="-171.7" skinid="ht_node" target="" tilt="-0.5" title="Bureau DG 01" url="{node8}"/>
       <hotspot description="" id="Point08" pan="-179.38" skinid="ht_node" target="" tilt="38.23" title="PAGE D'ACCEUIL " url="{node16}"/>
+      <hotspot description="" id="Point09" pan="144.51" skinid="ht_node" target="" tilt="-7.54" title="Responsable Comptable" url="{node22}"/>
     </hotspots>
     <media/>
     <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
@@ -68,9 +69,10 @@
     </view>
     <hotspots>
       <hotspot description="" id="Point01" pan="-0.0299999" skinid="ht_node" target="" tilt="-11.83" title="Couloir 01" url="{node13}"/>
-      <hotspot description="" id="Point04" pan="6.68" skinid="ht_node" target="" tilt="-0.1" title="DAF 01" url="{node15}"/>
+      <hotspot description="" id="Point04" pan="8.92" skinid="ht_node" target="" tilt="-0.48" title="DAF 01" url="{node15}"/>
       <hotspot description="" id="Point02" pan="-4.82" skinid="ht_node" target="" tilt="0.13" title="Salle de Conseil 01" url="{node3}"/>
       <hotspot description="" id="Point03" pan="-14.28" skinid="ht_node" target="" tilt="-1.98" title="Bureau DG 01" url="{node8}"/>
+      <hotspot description="" id="Point05" pan="6.33" skinid="ht_node" target="" tilt="2.73" title="Responsable Comptable" url="{node22}"/>
     </hotspots>
     <media/>
     <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
@@ -498,6 +500,29 @@
       <hotspot description="" id="Point01" pan="20.98" skinid="ht_node" target="" tilt="-4.01" title="Couloir 01" url="{node13}"/>
       <hotspot description="" id="Point02" pan="-23.06" skinid="ht_node" target="" tilt="0.45" title="Couloir 02" url="{node12}"/>
       <hotspot description="" id="Point03" pan="-5.19" skinid="ht_node" target="" tilt="0.03" title="Bureau DG 01" url="{node8}"/>
+    </hotspots>
+    <media/>
+    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
+  </panorama>
+  <panorama id="node22">
+    <input height="3000" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0" levelingroll="0" leveltilesize="1022" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" width="3000">
+      <level height="3000" predecode="0" preload="0" width="3000"/>
+      <level height="1500" predecode="0" preload="0" width="1500"/>
+      <level height="750" predecode="1" preload="1" width="750"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <userdata altitude="0.00" author="" capturedatetime="2026-07-17T12:28:14" comment="" copyright="" customnodeid="" datetime="" description="" heading="-186.101" hideinlist="0" info="" latitude="-1000.00000000" longitude="0.00000000" nodeid="node22" source="" tags="Rendus02" title="Responsable Comptable">
+      <mapcoords mapid="FloorPlan01" x="0.861053" x_floorplan_percent="50.16" y="-0.899506" y_floorplan_percent="81.3665"/>
+    </userdata>
+    <view fovmode="2" pannorth="-186.101">
+      <start fov="100" pan="0" projection="4" tilt="0"/>
+      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
+      <min fov="1" pan="0" tilt="-90"/>
+      <max fov="120" fovfisheye="360" fovstereographic="270" pan="360" scaletofit="0" tilt="90"/>
+    </view>
+    <hotspots>
+      <hotspot description="" id="Point01" pan="-148.84" skinid="ht_node" target="" tilt="-5.21" title="Couloir 03" url="{node11}"/>
+      <hotspot description="" id="Point02" pan="73.39" skinid="ht_node" target="" tilt="-3.66" title="DAF 01" url="{node15}"/>
     </hotspots>
     <media/>
     <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
