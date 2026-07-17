@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 8.0.2/22555
 // Filename: IT building Map 2026  .ggsk
-// Generated 2026-07-11T08:16:08Z
+// Generated 2026-07-17T13:18:52Z
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_sounds_splashscreen', 2, false, { ignoreInState: 1  });
